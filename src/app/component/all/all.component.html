@@ -1,0 +1,20 @@
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#Id</th>
+            <th>User_id</th>
+            <th>Title</th>
+            <th>Body</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let tempdata of list">
+            <td>{{tempdata.id}}</td>
+            <td>{{tempdata.userid}}</td>
+            <td>{{tempdata.title}}</td>
+            <td>{{tempdata.body}}</td>
+        </tr>
+    </tbody>
+</table>
